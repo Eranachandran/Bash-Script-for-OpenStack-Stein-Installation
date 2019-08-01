@@ -22,7 +22,9 @@ Bash Script for OpenStack Stein Installation
 Download and execute Source Code by as follows 
 
 git clone https://github.com/Eranachandran/Bash-Script-for-OpenStack-Stein-Installation.git
+
 cd Bash-Script-for-OpenStack-Stein-Installation
+
 bash Stein_Installation.sh
 
 This Script is tested with Ubuntu 18.04 LTS
