@@ -18,6 +18,11 @@ Bash Script for OpenStack Stein Installation
 #admin-openrc and demo-openrc contains preconfigured credentials if there are any changes in credentials, these files should be updated 
 
 # Script Usage 
+
+Download and execute Source Code by as follows 
+
+git clone https://github.com/Eranachandran/Bash-Script-for-OpenStack-Stein-Installation.git
+cd Bash-Script-for-OpenStack-Stein-Installation
 bash Stein_Installation.sh
 
 This Script is tested with Ubuntu 18.04 LTS
