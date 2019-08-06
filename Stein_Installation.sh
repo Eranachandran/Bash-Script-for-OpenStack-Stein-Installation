@@ -430,7 +430,7 @@ function horizon()
 #copy preconfig file
 cp ./conf_files/local_settings.py /etc/openstack-dashboard/local_settings.py
 cp ./conf_files/openstack-dashboard.conf /etc/apache2/conf-available/openstack-dashboard.conf
-sed -i -e  's/^\(OPENSTACK_HOST\s*=\).*/\1 "$ip"/' /etc/openstack-dashboard/local_settings.py
+sed -i -e  "s/^\(OPENSTACK_HOST\s*=\).*/\1 '$ip'/" /etc/openstack-dashboard/local_settings.py
 sed -i -e  "s/^\(\s*'LOCATION'\s*:\).*/\1 '$ip:11211', /" /etc/openstack-dashboard/local_settings.py
 
 #Reload the web server configuration
